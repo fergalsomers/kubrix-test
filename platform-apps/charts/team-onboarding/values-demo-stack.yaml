@@ -1,0 +1,8 @@
+scmAppsetRequeueAfterSeconds: 30
+multiStageKargoAppSetHelmRepo: https://github.com/fergalsomers/kubrix-test
+
+destinationClusters:
+  - name: in-cluster
+    allowedTeams: [".*"]
+
+teams: []
