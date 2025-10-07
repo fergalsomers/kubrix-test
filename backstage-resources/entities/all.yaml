@@ -23,6 +23,17 @@ spec:
   memberOf: [kubrix]
 ---
 apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: fergalsomers
+spec:
+  profile:
+    displayName: Fergal Somers
+    email: fsomers@gmail.com
+    picture: https://api.dicebear.com/9.x/adventurer-neutral/svg
+  memberOf: [kubrix]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: kubrix
